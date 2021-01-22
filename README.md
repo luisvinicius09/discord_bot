@@ -4,13 +4,11 @@
 
 > This is a discord bot with two features for your server.
 
-<!-- Additional description about the project and its features. -->
-
 ## Built With
 
 - Ruby
 - [Discordrb](https://github.com/discordrb/discordrb)
-- 
+- [Dotenv](https://github.com/bkeepers/dotenv)
 
 ## Live Demo
 
@@ -45,13 +43,15 @@ You can invite the bot to you server by clicking on the link above or you can do
   `SECRET_TOKEN=your secret token`
   `CLIENT_ID=you client id`
 
-### Usage
-
-8. If you are using all my code, you can just run `bundle exec ruby bin/main.rb` to initialize your bot.
-
-9. Now you just the (invite)[https://discordapi.com/permissions.html] for your own bot.
+8. Now you just get the [invite](https://discordapi.com/permissions.html) for your own bot.
   - Check some necessary permissions like: `Read messages`, `Send Messages`, `Read History Messages`
   - Insert you Client ID and get the link at the bottom to invite your bot
+
+
+### Usage
+9. If you are using all my code, you can just run `bundle exec ruby bin/main.rb` to initialize your bot.
+
+10. To use the bot features, you can type `!joke` to receive a joke or you can type `!game` to play a guess game with the bot.
 
 ### Run tests
 
