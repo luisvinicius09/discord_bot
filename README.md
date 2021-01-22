@@ -12,8 +12,7 @@
 
 ## Live Demo
 
-<!-- [Invite the bot to your server](https://discord.com/oauth2/authorize?client_id=801499984369025155&scope=bot&permissions=68672) -->
-I can't deploy this bot because the company Discord does not allow me to publish my tokens. You'll need to set up by following the instructions.
+[Invite the bot to your server](https://discord.com/oauth2/authorize?client_id=801499984369025155&scope=bot&permissions=68672)
 
 ## Getting Started
 
