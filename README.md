@@ -1,35 +1,44 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Discord Bot
 
-> One paragraph statement about the project.
+> This is a discord bot with two features for your server.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+<!-- Additional description about the project and its features. -->
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Ruby
+- [Discordrb](https://github.com/discordrb/discordrb)
+- 
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
-
+[Invite the bot to your server](https://discord.com/oauth2/authorize?client_id=801499984369025155&scope=bot&permissions=68672)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+You can invite the bot to you server by clicking on the link above or you can download/clone this code and create/modify your own bot.
 
 ### Prerequisites
 
+- Ruby
+- Discord
+- Text editor
+
+** If you want to use as your own bot **
 ### Setup
+
+- You will need to create an account on [discord](https://discord.com/register).
+- After signing up, access the [developer](https://discord.com/developers/applications) page.
+- Create a new application with your own stuff.
+- After creating you app, access it and you will need your `Client ID` in the General Information section(below the description) and your `Secret token` in the Bot section below the bot username.
+
+#### Now that you have your `Secret Token & Client ID`
+- Create a file called `tokens.env` on the root folder.
+  - And type on it: 
+  `SECRET_TOKEN=your secret token<br>
+  CLIENT_ID=you client id`
 
 ### Install
 
