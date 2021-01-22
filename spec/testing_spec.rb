@@ -2,7 +2,11 @@
 require_relative '../lib/bot_logic.rb'
 
 describe Bot
-  describe '' do
+  describe 'send_jokes' do
+
+  end
+
+  describe 'guess_game' do
     
   end
 end
