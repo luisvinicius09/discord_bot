@@ -55,6 +55,10 @@ You can invite the bot to you server by clicking on the link above or you can do
 
 ### Run tests
 
+- To run the rspec tests, you will need to install the rspec with `gem install rspec`
+
+- And to check all tests run `rspec` on the root folder
+
 
 ## Authors
 
