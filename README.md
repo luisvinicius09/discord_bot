@@ -10,6 +10,10 @@
 - [Discordrb](https://github.com/discordrb/discordrb)
 - [Dotenv](https://github.com/bkeepers/dotenv)
 
+### If it's your first time using discord:
+- You need to create your own personal server to be able to invite the bot.
+- You can follow these [instructions](https://support.discord.com/hc/en-us/articles/204849977-How-do-I-create-a-server-)
+
 ## Live Demo
 
 [Invite the bot to your server](https://discord.com/oauth2/authorize?client_id=801499984369025155&scope=bot&permissions=68672)
@@ -35,7 +39,8 @@ You can invite the bot to you server by clicking on the link above or you can do
 3. Now you will need to create an account on [discord](https://discord.com/register).
 4. After signing up, access the [developer](https://discord.com/developers/applications) page.
 5. Create a new application with your own stuff.
-6. After creating you app, access it and you will need your `Client ID` in the General Information section(below the description) and your `Secret token` in the Bot section below the bot username.
+6. After creating you app, access it and you will need your `Client ID` in the General Information section(below the description)
+7. To get your `Secret token`, go to the Bot section, add your bot clicking the buttom and the token will be under the bot username.
 
 #### Now that you have your `Secret Token & Client ID`
 7. Create a file called `tokens.env` on the root folder.
@@ -46,7 +51,6 @@ You can invite the bot to you server by clicking on the link above or you can do
 8. Now you just get the [invite](https://discordapi.com/permissions.html) for your own bot.
   - Check some necessary permissions like: `Read messages`, `Send Messages`, `Read History Messages`
   - Insert you Client ID and get the link at the bottom to invite your bot
-
 
 ### Usage
 9. If you are using all my code, you can just run `bundle exec ruby bin/main.rb` to initialize your bot.
