@@ -6,6 +6,12 @@ Dotenv.load('tokens.env')
 class Bot
   attr_reader :general_bot
 
+  def initialize
+    create_bot
+  end
+
+  private
+
   def create_bot
     general_bot = Discordrb:: Commands::CommandBot.new(
       token: ENV['SECRET_TOKEN'],
