@@ -7,7 +7,7 @@ AllCops:
   DisplayCopNames: true
 
 Layout/LineLength:
-  Max: 120
+  Max: 3000
 Metrics/MethodLength:
   Max: 20
 Metrics/AbcSize:
@@ -18,7 +18,10 @@ Metrics/BlockLength:
   ExcludedMethods: ['describe']
   Max: 30
 
-
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/BlockComments:
+  Enabled: false
 Style/Documentation:
   Enabled: false
 Style/ClassAndModuleChildren:
