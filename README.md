@@ -2,7 +2,7 @@
 
 # Discord Bot
 
-> This is a discord bot with two features for your server.
+> This is a discord bot that can bring a little fun for your discord server, you can request a joke using `!joke` or you can play a game using `!game`. Invite it to your server and try it out or you can clone my code and make your own things.
 
 ## Built With
 
