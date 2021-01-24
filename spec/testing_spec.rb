@@ -1,3 +1,8 @@
-# spec/testing_spec.rb
+require_relative '../lib/utils.rb'
 
-# There is no testing here, not possible to create one.
+describe 'random_select' do
+  it 'selects a random joke in the array' do
+    selection = random_select
+    expect(selection).to eql(selection)
+  end
+end
